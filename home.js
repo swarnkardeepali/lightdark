@@ -1,12 +1,7 @@
 function loadCoupon(){
-    debugger;
-    document.getElementById('coupon').style.visibility = 'visible';
-    // document.getElementById('content').style.opacity = '0.7'
-
+    document.getElementById('coupon').classList.add('open');
 }
 
 function closeCoupon(){
-    document.getElementById('coupon').style.visibility = 'hidden';
-    // document.getElementById('main').style.opacity = '1'
-    
+    document.getElementById('coupon').classList.remove('open');
 }
